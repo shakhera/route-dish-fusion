@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(209, 209, 209);
+  height: 80px;
+  align-items: center;
+  padding: 0 20px;
+}
+.header img {
+  height: 40px;
+}
+.navigation {
+  display: flex;
+}
+.navigation a {
+  color: #000000;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
