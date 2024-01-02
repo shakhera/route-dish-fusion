@@ -4,7 +4,7 @@ import Restaurant from "../Restaurant/Restaurant";
 
 const Restaurants = () => {
   const restaurants = useLoaderData();
-  console.log(restaurants.meals);
+  //   console.log(restaurants.meals);
   return (
     <div className="m-12">
       <h2 className="text-center mb-4 font-bold text-3xl">
