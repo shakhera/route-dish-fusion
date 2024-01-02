@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   return (
@@ -7,10 +8,10 @@ const Header = () => {
       <div className="flex items-center justify-between">
         <img src="fork-and-knife.svg" alt="" className="w-8 h-8" />
         <nav className="hidden md:flex md:space-x-4 font-bold">
-          <Link to="/">Home</Link>
-          <Link to="/restaurants">Restaurants</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <ActiveLink to="/">Home</ActiveLink>
+          <ActiveLink to="/restaurants">Restaurants</ActiveLink>
+          <ActiveLink to="/about">About</ActiveLink>
+          <ActiveLink to="/contact">Contact</ActiveLink>
         </nav>
 
         {/* <nav className="md:hidden flex flex-col">
