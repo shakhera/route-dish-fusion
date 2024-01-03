@@ -1,6 +1,7 @@
 import { Outlet, useNavigation } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const navigation = useNavigation();
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <div>{navigation.state === "loading" && "loading....."}</div>
+      <Footer></Footer>
       <Outlet></Outlet>
     </>
   );

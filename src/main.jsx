@@ -9,6 +9,7 @@ import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import RestaurantDetails from "./components/RestaurantDetails/RestaurantDetails.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact></Contact>,
       },
+      // {
+      //   path: "/footer",
+      //   element: <Footer></Footer>,
+      // },
       {
         path: "*",
         element: <ErrorPage></ErrorPage>,
