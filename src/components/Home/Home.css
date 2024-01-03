@@ -1,0 +1,43 @@
+.main {
+  background: #858585;
+}
+.container-main {
+  background-color: black;
+  display: flex;
+}
+
+.img-container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img-container img {
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  margin-top: 50px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.img-container-list2 {
+  padding-top: 20px;
+}
+
+.text-heding {
+  color: #ffffff;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.heading-text {
+  padding-top: 30px;
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#title {
+  color: rgb(212, 29, 29);
+}
